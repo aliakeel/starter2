@@ -11,7 +11,7 @@ const querystring = require('querystring');
 const cookie = require('cookie');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
-const port = process.env.port || 5000;
+const port = process.env.port || 3031;
 // Parse incoming requests data (https://github.com/expressjs/body-parser)
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
