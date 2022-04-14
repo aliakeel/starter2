@@ -173,7 +173,7 @@ app.post('/textmail', (req, res) => {
 
 const server = app.listen(port, () => {
     const port = server.address().port;
-    console.log('Application  listening on port ${port}!');
+    console.log('Application  listening on port ' + port);
 });
 
 
